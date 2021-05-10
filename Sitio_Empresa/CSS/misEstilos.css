@@ -1,0 +1,75 @@
+body{
+    margin:0px;
+    padding: 0px;
+    
+}
+
+header{
+    height: 150px;
+    background-image: url(https://cdnesp.comit.org/images/banner-home.jpg);                                    
+    background-size: cover;
+    padding-top: 5px;
+}
+
+nav>ul{
+    text-align: right;
+}
+
+nav>ul>li{
+    display: inline-block;
+    color: white;
+    text-decoration: none;    
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+li>a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    background-color: rgb(250, 243, 243);
+    height: 500px;
+    padding: 20px;
+}
+
+section{
+    background-color: rgb(53, 53, 53);
+    border-radius: 10px;
+    height: 450px;
+    padding: 20px;
+}
+
+h1,p{
+    color: white;
+}
+
+footer{
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    height: 30px; 
+    padding:20px;
+}
+
+label{
+    color: white;
+}
+
+input{
+    border-radius: 8px;
+    margin: 10px;
+}
+
+
+
+textarea{
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/*quito el recuadro al recibir foco el componente*/
+input:focus { outline: none; } 
+textarea:focus { outline: none; } 
