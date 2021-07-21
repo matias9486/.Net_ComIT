@@ -1,0 +1,23 @@
+.miClase{
+    background-color: black;
+    color: white;
+    border-radius: 10px;        
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    height: 230px;    
+    vertical-align:top;    
+
+}
+
+.miDiv{
+    background-color: rgb(242, 241, 241);
+    margin: 5px;
+    padding: 5px;
+}
+
+.enNegrita{
+    font-weight: bold;
+}

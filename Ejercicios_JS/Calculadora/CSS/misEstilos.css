@@ -1,0 +1,21 @@
+
+        div{
+            margin: 5px;
+        }
+
+        .btn{
+            margin:5px;
+            width: 100px;
+            font-weight: bold;
+            
+        }
+        .btnPiso{
+            margin:5px;
+            background-color: gray;
+            color: white;            
+            font-weight: bold;
+        }
+
+        input{
+            margin: 5px;
+        }

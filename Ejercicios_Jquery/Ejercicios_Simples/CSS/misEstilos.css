@@ -1,0 +1,21 @@
+.botonActivo
+{
+    background-color: chartreuse;
+    color: white;
+}
+
+.image{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+section{
+    background-color: rgb(236, 231, 231);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn-close{
+    color: blueviolet !important;
+}

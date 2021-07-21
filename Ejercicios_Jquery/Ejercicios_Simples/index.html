@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JQuery</title>
+    
+    <script src="JS/jquery-3.6.0.min.js"></script>
+    <script src="JS/ejercicios.js" ></script>
+    <link rel="stylesheet" href="CSS/misEstilos.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <style>
+      .btn-close {
+  color: var(--bs-blue);
+}
+    </style>
+</head>
+<body>    
+
+    <header class="bg-dark">
+        <h1 class="text-lg-center text-light">Bienvenido</h1>
+    </header>
+    
+    <main>
+        <section id="primerSeccion">
+            <p>Apretando un botón, cambiar color de fondo de otro elemento.</p>
+            <input  class="btn-dark rounded-pill" id="cambiar" type="button" value="Cambiar color de titulo">            
+        </section>
+
+        <section>
+            <p>Apretando un botón, mostrar u ocultar una sección de la página.</p>
+            <input class="btn-dark rounded-pill" id="ocultar" type="button" value="Ocultar primer Section">            
+        </section>
+
+        <section>
+            <p>Apretando un botón, agregar un elemento HTML que no existía en el .html original.</p>
+            <label for="elemento">Ingrese elemento:</label>
+            <input type="text" name="elemento" id="elemento">
+            <input class="btn-dark rounded-pill" id="agregarElemento" type="button" value="Agregar">
+            <select name="listaNombres" id="listaNombres"></select>
+        </section>
+
+        <section  id="cuartaSeccion">
+            <p>Dado 10 botones con texto del 0 al 9, mostrar en un input el valor del botón clickeado y cambiar color de fondo. 
+                Cuando se vuelva a clickear, volver el color del fondo original y borrar el numero del input. </p>
+            <input type="text" name="botones" id="botones" readonly>
+        </section>
+
+        <section  id="quintaSeccion">
+            <p>Teniendo en cuenta todo esto, podemos resolver un sistema de valoración con 5 estrellas</p>
+            <span id="estrellitas"></span>
+
+            <div id="msj"></div>
+
+             
+            
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark text-light">
+                      <h5 class="modal-title" id="exampleModalLabel">Valoración confirmada</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Gracias por valorar nuestra página :)
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+    </main>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>
